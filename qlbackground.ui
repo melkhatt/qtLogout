@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>qlBackground</class>
+ <widget class="QFrame" name="qlBackground">
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::NoFrame</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Plain</enum>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

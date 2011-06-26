@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/images/buttons">
+        <file>shutdown.png</file>
+        <file>logout.png</file>
+        <file>reboot.png</file>
+        <file>suspend.png</file>
+        <file>cancel.png</file>
+        <file>about.png</file>
+    </qresource>
+</RCC>
