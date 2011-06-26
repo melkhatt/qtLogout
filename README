@@ -1,0 +1,13 @@
+qtLogout - easy app to logout your openbox.
+It's experimental software, I'm learning C++ :)
+
+TODO:
+- Remove hard coded dbus-send commands and repleace it with dbus c++ implementation.
+- Gracefully shutdown all apps during exit process
+
+INSTALATION EXAMPLE
+- Run "qmake INSTALL_PREFIX=/usr" <- You should set this path, because default is /usr/local.
+- Next "make" <- If you have more than one cpu cores, You can use "-jN" option, where N is you cpu cores number +1.
+- Then "make install" for install in your system.
+
+P.S. Sorry for my poor english.
