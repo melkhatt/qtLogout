@@ -6,6 +6,11 @@
 
 QT       += core gui
 
+isEmpty(INSTALL_PREFIX) {
+        INSTALL_PREFIX = /usr/local
+}
+message("INSTALL_PREFIX for make install is: "$$INSTALL_PREFIX)
+
 TARGET = qtLogout
 TEMPLATE = app
 
@@ -28,3 +33,7 @@ OTHER_FILES +=
 
 RESOURCES += \
     res.qrc
+
+# make install
+target.path = $$INSTALL_PREFIX/bin/
+INSTALLS += target
