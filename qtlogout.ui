@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>456</width>
-    <height>129</height>
+    <width>551</width>
+    <height>130</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,7 +26,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>440</width>
+      <width>531</width>
       <height>20</height>
      </rect>
     </property>
@@ -70,7 +70,7 @@ padding-bottom: 5px;</string>
    <widget class="QToolButton" name="cancel_btn">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>460</x>
       <y>85</y>
       <width>81</width>
       <height>41</height>
@@ -174,7 +174,7 @@ padding-bottom: 5px;</string>
    <widget class="QToolButton" name="about_btn">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>460</x>
       <y>35</y>
       <width>81</width>
       <height>41</height>
@@ -198,6 +198,32 @@ padding-bottom: 5px;</string>
     </property>
     <property name="toolButtonStyle">
      <enum>Qt::ToolButtonTextBesideIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="hibernate_btn">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>35</y>
+      <width>82</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hibernate</string>
+    </property>
+    <property name="icon">
+     <iconset resource="res.qrc">
+      <normaloff>:/images/buttons/hibernate.png</normaloff>:/images/buttons/hibernate.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
     </property>
    </widget>
   </widget>

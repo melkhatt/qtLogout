@@ -28,6 +28,8 @@ private slots:
 
     void on_about_btn_clicked();
 
+    void on_hibernate_btn_clicked();
+
 private:
     Ui::qtLogout *ui;
 };

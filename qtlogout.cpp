@@ -59,6 +59,12 @@ void qtLogout::on_suspend_btn_clicked()
     qApp->quit();
 }
 
+void qtLogout::on_hibernate_btn_clicked()
+{
+    system(HIBERNATE_CMD);
+    qApp->quit();
+}
+
 void qtLogout::on_cancel_btn_clicked()
 {
     qApp->quit();

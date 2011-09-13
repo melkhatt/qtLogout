@@ -6,5 +6,6 @@
         <file>suspend.png</file>
         <file>cancel.png</file>
         <file>about.png</file>
+        <file>hibernate.png</file>
     </qresource>
 </RCC>
